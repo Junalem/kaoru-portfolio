@@ -25,19 +25,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-// class Navbar extends React.Component {
-//   render() {
-//     return (
-//       <div>
-//         <div>
-//           About me
-//         </div>
-//         <div>
-//          My portfolio
-//         </div>
-//       </div>
-
-//     );
-//   }
-// }
-//  export default Hello;
