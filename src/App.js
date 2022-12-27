@@ -7,9 +7,9 @@ import Photo from './components/Photo'
 const App = () => {
   return (
     <div>
-      <div>
+      {/* <div>
         < Navbar />
-      </div>
+      </div> */}
       <div>
       < Photo />
       </div>
