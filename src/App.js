@@ -7,10 +7,10 @@ import Photo from './components/Photo'
 const App = () => {
   return (
     <div>
-      {/* <div>
-        < Navbar />
-      </div> */}
       <div>
+        < Navbar />
+      </div>
+      <div className="right-scene">
       < Photo />
       </div>
     </div>

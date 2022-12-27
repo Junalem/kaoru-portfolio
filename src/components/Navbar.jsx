@@ -1,25 +1,17 @@
 import React from "react";
 // import Mailto from './components/Mailto';
-
-const Mailto = ({ email, subject, body, props }) => {
-  return (
-    <a href={`mailto:${email}?subject=${subject || ""}`}>
-      {props.children}
-    </a>
-  );
-};
 const Navbar = () => {
   return (
-    <div>
-      <div>
+    <div className="navbar">
+      <div className="navelement">
         About me
       </div>
-      <div>
+      <div className="navelement">
         My portfolio
       </div>
-      <Mailto email="foo@bar.baz" subject="Hello">
-        Mail me
-      </Mailto>
+      <div className="navelement">
+        Contact me
+      </div>
     </div>
   );
 };
