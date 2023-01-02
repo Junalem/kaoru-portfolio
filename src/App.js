@@ -1,5 +1,6 @@
 import React, { Component, useState } from 'react';
 import './App.css';
+import About from './components/About';
 import Navbar from './components/Navbar';
 import Photo from './components/Photo'
 
@@ -10,8 +11,13 @@ const App = () => {
       <div>
         < Navbar />
       </div>
-      <div className="right-scene">
-      < Photo />
+      <div>
+      <div className="left-scene">
+        < Photo />
+        </div>
+        <div className="right-scene">
+        < About />
+        </div>
       </div>
     </div>
   );
