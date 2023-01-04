@@ -7,6 +7,10 @@ const Photo = () => {
       <div className="backbox">
       </div>
       <img src={url} alt="photo" className="photo" />
+      <div className="maine-title">
+        <h1>Kaoru Kure</h1>
+        <p>Photographer. Stand with Ukraine, Stand in Ukraine!</p>
+      </div>
     </div>
   );
 };

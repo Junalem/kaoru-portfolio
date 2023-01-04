@@ -166,3 +166,20 @@ body {
   border-radius: 8px;
   box-shadow: 0 0 36px rgba(black, black, black, 1);
 }
+
+.left-scene .maine-title {
+  font-family: 'Cormorant SC', serif;
+  position: absolute;
+  top: 26vh;
+  right: 12vh;
+
+}
+.left-scene .maine-title h1 {
+  font-size: 66px;
+  /* text-shadow: -4px -4px 4px #dcd2d2; */
+  margin: 0;
+}
+
+.left-scene .maine-title p {
+  font-size: 20px;
+}
