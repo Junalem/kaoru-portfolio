@@ -37,7 +37,9 @@
   }
 }
 
-
+body {
+  background-color: rgba(#c0bebe,0.7);
+}
 
 .right-scene {
   flex: 0 0 40%;
@@ -58,7 +60,7 @@
 }
 .navbar{
 display: flex;
-background-color: rgba(50,50,50,0.7);
+background-color: rgba(50,50,50,0.5);
 color: white;
 position: sticky;
 top: 0;
@@ -138,8 +140,8 @@ body {
 }
 
 .left-scene .backbox {
-  width: 516px;
-  height: 344px;
+  width: 636px;
+  height: 421px;
   /* margin: auto; */
   /* content: '\F002'; */
   position: absolute;
@@ -151,7 +153,7 @@ body {
   border-radius: 8px;
 }
 .left-scene .photo {
-  max-width: 516px;
+  max-width: 636px;
   max-height: 422px;
   /* margin: auto; */
   /* content: '\F002'; */
@@ -162,4 +164,5 @@ body {
   font-size: 2.6em;
   /* opacity: 0.4; */
   border-radius: 8px;
+  box-shadow: 0 0 36px rgba(black, black, black, 1);
 }
