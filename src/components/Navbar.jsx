@@ -1,16 +1,31 @@
 import React from "react";
 // import Mailto from './components/Mailto';
 const Navbar = () => {
+  const Photo = `camera1.png`;
   return (
     <div className="navbar">
-      <div className="navelement">
-        About me
+      <div className="blockfirst">
+        <div className="navelement">
+          About me
+        </div>
+        <div className="navelement">
+          My portfolio
+        </div>
+        <div className="navelement">
+          Contact me
+        </div>
       </div>
-      <div className="navelement">
-        My portfolio
-      </div>
-      <div className="navelement">
-        Contact me
+      <img src={Photo} alt="photo" className="camera" />
+      <div className="blocksecond">
+        <div className="navelement">
+          <a href="">Facebook</a>
+        </div>
+        <div className="navelement">
+          <a href="">Instagram</a>
+        </div>
+        <div className="navelement">
+          <a href="">Twitter</a>
+        </div>
       </div>
     </div>
   );
