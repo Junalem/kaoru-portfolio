@@ -248,6 +248,8 @@ body {
 .about {
   display: flex;
   position: relative;
+  background-color: rgb(245, 245, 245);
+
 }
 .my-self {
   display: flex;
