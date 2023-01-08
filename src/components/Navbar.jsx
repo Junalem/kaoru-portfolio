@@ -1,5 +1,4 @@
 import React from "react";
-// import Mailto from './components/Mailto';
 const Navbar = () => {
   const Photo = `camera1.png`;
   return (
